@@ -1,0 +1,3 @@
+page_load_progress_time: 10
+page_load_progress_elements: '.form-submit'
+page_load_progress_esc_key: true

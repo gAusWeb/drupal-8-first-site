@@ -1,0 +1,13 @@
+page_load_progress.settings:
+  type: config_object
+  label: 'Page Load Progress settings'
+  mapping:
+    page_load_progress_time:
+      type: integer
+      label: 'Time to wait before locking the screen'
+    page_load_progress_elements:
+      type: text
+      label: 'Time to wait before showing the image lock'
+    page_load_progress_esc_key:
+      type: boolean
+      label: 'Allow ESC key to kill the throbber'
